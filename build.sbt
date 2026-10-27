@@ -16,6 +16,7 @@ libraryDependencies ++= Seq(
 ///
 /// Everything that follows is for the `sbt checkAndZipSubmission` task
 ///
+import java.nio.file.Paths
 val extraPath = "extra_submission_files"
 val zipFilePath = "submission.zip"
 val confirmBeforeOverwrite = false
